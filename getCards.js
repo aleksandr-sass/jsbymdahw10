@@ -36,14 +36,13 @@
 
 
 const getCards = () => {
-    fetch('https://test-24533-default-rtdb.firebaseio.com/db.json')
-    .then(response => {
-        return response.json()
-    })
-    .then(cards => {
-        console.log(cards);
-
-    } )
+    fetch('https://test-b8ab8-default-rtdb.europe-west1.firebasedatabase.app/db.json')
+        .then(response => {
+          return response.json()
+        })
+        .then(cards => {
+            console.log(cards);
+        })
 }
 getCards()
 //***ФУНКЦИЯ получения локально массива обьектов
