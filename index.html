@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style6.css">
+    <script src="app.js" defer></script>
+    <script src="shopCart.js" defer></script>
+    <script src="getCards.js" defer></script>
+    <title>lesson 6</title>
+</head>
+<body>
+    <section>
+        <nav class="nav">
+            <div class="container">
+                <ul class="nav__content">
+                    <li class="nav__link"><a href="">Главная</a></li>
+                    <li class="nav__link"><a href="">Магазин</a></li>
+                    <li class="dropdown"><a href="#">Выпадающее меню</a>
+                        <ul class="dropdown__list">
+                            <li><a class="dropdown__link" href="">ETHIOPIA</a></li>
+                            <li><a class="dropdown__link" href="">KENYA</a></li>
+                            <li><a class="dropdown__link" href="">COLUMBIA</a></li>
+                            <li><a class="dropdown__link" href="">QUATEMALA</a></li>
+                        </ul>
+                    <li>
+                        <form action="">
+                            <input class="form__input" type="text">
+                            <input class="form__btn" type="button" value="НАЙТИ">
+                        </form>
+                    </li>
+                    </li>
+                    <li class="nav__link"><a class="nav__link_shop-cart" href="">Корзина 
+                        <span class="nav__count">0</span><img src="img/cart.svg"> </a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="shop">
+            <div class="container">
+                <div class="shop__content">
+                    <div class="shop__item">
+                        <div class="shop__img shop__img_bg1">
+                            <a class="shop__link" href="#" data-type="ETHIOPIA">ПОКАЗАТЬ</a>
+                        </div>
+                        <h3>ETHIOPIA</h3>
+                        <p>от 25 бел. р.</p>
+                    </div>
+                    <div class="shop__item">
+                        <div class="shop__img shop__img_bg2">
+                            <a class="shop__link" href="#" data-type="KENYA">ПОКАЗАТЬ</a>
+                        </div>
+                        <h3>KENYA</h3>
+                        <p>от 25 бел. р.</p>
+                    </div>
+                    <div class="shop__item">
+                        <div class="shop__img shop__img_bg3">
+                            <a class="shop__link" href="#" data-type="COLUMBIA">ПОКАЗАТЬ</a>
+                        </div>
+                        <h3>COLUMBIA</h3>
+                        <p>от 25 бел. р.</p>
+                    </div>
+                    <div class="shop__item">
+                        <div class="shop__img shop__img_bg4">
+                            <a class="shop__link" href="#" data-type="QUATEMALA">ПОКАЗАТЬ</a>
+                        </div>
+                        <h3>QUATEMALA</h3>
+                        <p>от 25 бел. р.</p>
+                    </div>
+                </div>
+                <div class="test"></div>
+            </div>
+        </div>
+    </section>
+    <div class="modal">
+        <div class="modal__overlay">
+            <div class="modal__body">
+                <a class="modal__close"><img src="img/delete.png" alt=""></a>
+                <span class="modal__count">Общее кол-во</span>     <span class="modal__sum">Общая сумма</span>
+                <span class="modal__clear">Очистить корзину</span>
+                <table class="modal__table">
+                    <thead>
+                        <th>№</th>
+                        <th>Фото</th>
+                        <th>Наименование</th>
+                        <th>Цена</th>
+                        <th>Кол-во</th>
+                        <th>Стоимость</th>
+                        <th></th>
+                    </thead>
+                    <tbody class="table__body">
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
