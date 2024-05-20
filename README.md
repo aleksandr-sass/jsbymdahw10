@@ -14,6 +14,7 @@ JS by MDA. Homework to lesson #10
 fetch('https://project-d68d1-default-rtdb.firebaseio.com/db.json')
 ```
 Для получение данных локально из файла db.json необходимо включать Live server.
+
 3. Для передачи ошибки в метод .catch необходимо передать сам объект и его свойство status
 ```
 fetch('https://project-d68d1-default-rtdb.firebaseio.com/db.json')
