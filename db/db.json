@@ -1,86 +1,108 @@
-[
-    {
-        "id": "01",
-        "name": "ETHIOPIA COFFEE 100гр",
-        "img": "img/s6-f1.png",
-        "price": "15",
-        "type": "ETHIOPIA"
-    },
-    {
-        "id": "02",
-        "name": "ETHIOPIA COFFEE 400гр",
-        "img": "img/s6-f1.png",
-        "price": "23",
-        "type": "ETHIOPIA"
-    },
-    {
-        "id": "03",
-        "name": "ETHIOPIA COFFEE 900гр",
-        "img": "img/s6-f1.png",
-        "price": "52",
-        "type": "ETHIOPIA"
-    },
-    {
-        "id": "04",
-        "name": "KENYA COFFEE 100гр",
-        "img": "img/s6-f2.png",
-        "price": "15",
-        "type": "KENYA"
-    },
-    {
-        "id": "05",
-        "name": "KENYA COFFEE 400гр",
-        "img": "img/s6-f2.png",
-        "price": "25",
-        "type": "KENYA"
-    },
-    {
-        "id": "06",
-        "name": "KENYA COFFEE 900гр",
-        "img": "img/s6-f2.png",
-        "price": "35",
-        "type": "KENYA"
-    },
-    {
-        "id": "07",
-        "name": "COLUMBIA COFFEE 100гр",
-        "img": "img/s6-f3.png",
-        "price": "15",
-        "type": "COLUMBIA"
-    },
-    {
-        "id": "08",
-        "name": "COLUMBIA COFFEE 400гр",
-        "img": "img/s6-f3.png",
-        "price": "15",
-        "type": "COLUMBIA"
-    },
-    {
-        "id": "09",
-        "name": "COLUMBIA COFFEE 900гр",
-        "img": "img/s6-f3.png",
-        "price": "15",
-        "type": "COLUMBIA"
-    },
-    {
-        "id": "10",
-        "name": "QUATEMALA COFFEE 100гр",
-        "img": "img/s6-f4.png",
-        "price": "15",
-        "type": "QUATEMALA"
-    },
-    {
-        "id": "11",
-        "name": "QUATEMALA COFFEE 400гр",
-        "img": "img/s6-f4.png",
-        "price": "15",
-        "type": "QUATEMALA"
-    },
-    {
-        "id": "12",
-        "name": "QUATEMALA COFFEE 900гр",
-        "img": "img/s6-f4.png",
-        "price": "15",
-        "type": "QUATEMALA"
-    }
-]
+{
+    "db":     [
+        {
+            "id": "01",
+            "name": "ETHIOPIA COFFEE 100гр",
+            "img": "img/s6-f1.png",
+            "price": "15",
+            "type": "ETHIOPIA"
+        },
+        {
+            "id": "02",
+            "name": "ETHIOPIA COFFEE 400гр",
+            "img": "img/s6-f1.png",
+            "price": "23",
+            "type": "ETHIOPIA"
+        },
+        {
+            "id": "03",
+            "name": "ETHIOPIA COFFEE 900гр",
+            "img": "img/s6-f1.png",
+            "price": "52",
+            "type": "ETHIOPIA"
+        },
+        {
+            "id": "04",
+            "name": "KENYA COFFEE 100гр",
+            "img": "img/s6-f2.png",
+            "price": "15",
+            "type": "KENYA"
+        },
+        {
+            "id": "05",
+            "name": "KENYA COFFEE 400гр",
+            "img": "img/s6-f2.png",
+            "price": "25",
+            "type": "KENYA"
+        },
+        {
+            "id": "06",
+            "name": "KENYA COFFEE 900гр",
+            "img": "img/s6-f2.png",
+            "price": "35",
+            "type": "KENYA"
+        },
+        {
+            "id": "07",
+            "name": "COLUMBIA COFFEE 100гр",
+            "img": "img/s6-f3.png",
+            "price": "15",
+            "type": "COLUMBIA"
+        },
+        {
+            "id": "08",
+            "name": "COLUMBIA COFFEE 400гр",
+            "img": "img/s6-f3.png",
+            "price": "15",
+            "type": "COLUMBIA"
+        },
+        {
+            "id": "09",
+            "name": "COLUMBIA COFFEE 900гр",
+            "img": "img/s6-f3.png",
+            "price": "15",
+            "type": "COLUMBIA"
+        },
+        {
+            "id": "10",
+            "name": "QUATEMALA COFFEE 100гр",
+            "img": "img/s6-f4.png",
+            "price": "15",
+            "type": "QUATEMALA"
+        },
+        {
+            "id": "11",
+            "name": "QUATEMALA COFFEE 400гр",
+            "img": "img/s6-f4.png",
+            "price": "15",
+            "type": "QUATEMALA"
+        },
+        {
+            "id": "12",
+            "name": "QUATEMALA COFFEE 900гр",
+            "img": "img/s6-f4.png",
+            "price": "15",
+            "type": "QUATEMALA"
+        }
+    ],
+
+    "users": [
+        {
+            "id": "01",
+            "userName": "Дмитрий",
+            "discont": "95"
+        },
+        {
+            "id": "02",
+            "userName": "Полина",
+            "discont": "80"
+        },
+        {
+            "id": "03",
+            "userName": "Станислав",
+            "discont": "5"
+        }
+    ]
+}
+
+

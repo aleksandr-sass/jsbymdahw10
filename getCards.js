@@ -36,7 +36,7 @@
 
 
 const getCards = () => {
-    fetch('https://test-b8ab8-default-rtdb.europe-west1.firebasedatabase.app/db.json')
+    fetch('https://test4-d0426-default-rtdb.firebaseio.com/db.json')
         .then(response => {
           return response.json()
         })
