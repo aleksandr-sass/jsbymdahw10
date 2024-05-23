@@ -1,7 +1,12 @@
 // window.addEventListener('DOMContentLoaded', () => {
 // })
 const dropdown = document.querySelector('.dropdown')
+const dropdownUser = document.querySelector('.dropdown__user')
+
 const dropdownList = document.querySelector('.dropdown__list')
+const dropdownListUser = document.querySelector('.dropdown__list_user')
+
+
 const shopLinks = document.querySelectorAll('.shop__link')
 const shopContent = document.querySelector('.shop__content')
 const modal = document.querySelector('.modal')
@@ -72,6 +77,26 @@ dropdown.addEventListener('click', (e)=> {
         sortCards(e.target.innerHTML)
     }
 })
+
+
+//тоже самое для списка пользователей
+//слушатель события "при наведении" для ссылки выпадающего меню
+dropdownUser.addEventListener('mouseover', showDropdownUser);
+dropdownUser.addEventListener('mouseout', showDropdownUser);
+
+function showDropdownUser(e) {
+    e.preventDefault();
+    if (e.target.closest('.dropdown__user')) {
+        dropdownListUser.classList.toggle('active');
+    }
+}
+
+
+
+
+
+
+
 
 
 

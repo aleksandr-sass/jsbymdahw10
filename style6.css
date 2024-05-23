@@ -40,12 +40,15 @@ ul {
     margin: 0 10px;
     color: orange;
 }
-.dropdown {
+.dropdown,
+.dropdown__user {
     position: relative;
     padding: 5px;
     background-color: rgb(2, 146, 62);
 }
-.dropdown__list {
+.dropdown__list,
+.dropdown__list_user
+ {
     position: absolute;
     top: 28px;
     left: 0;
